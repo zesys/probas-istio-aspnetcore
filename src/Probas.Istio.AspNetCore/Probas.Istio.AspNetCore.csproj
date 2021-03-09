@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -7,12 +7,15 @@
     <Company>zesys</Company>
     <Copyright>zesys</Copyright>
 	<Owners>zesys</Owners>
-	<RepositoryUrl>https://github.com/zesys/probas-istio-aspnetcore</RepositoryUrl>
+	<RepositoryUrl></RepositoryUrl>
     <Description>Enables propagation of Istio tracing headers in ASP.Net Core</Description>
 	<Title>Probas.Istio.AspNetCore</Title>
 	<PackageId>Probas.Istio.AspNetCore</PackageId>
-	<PackageTags>API Gateway;.NET Core</PackageTags>
+	<PackageTags>.NET Core</PackageTags>
 	<Product>Probas.Istio.AspNetCore</Product>
+	<PackageLicenseFile>License.txt</PackageLicenseFile>
+	<PackageProjectUrl>https://github.com/zesys/probas-istio-aspnetcore</PackageProjectUrl>
+	<PackageReleaseNotes>基于Istio的服务网格链路追踪的监控方案，应用程序携带HTTP表头信息，并将其从传入请求传播到任意传出请求。</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +23,13 @@
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

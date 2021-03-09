@@ -6,6 +6,11 @@
 #### Software Architecture
 Software architecture description
 
+#### Install Nuget Package
+```bash
+dotnet add package Probas.Istio.AspNetCore
+```
+
 #### Instructions(Usage)
 
 1.  Configure in `Program.cs`

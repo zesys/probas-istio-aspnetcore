@@ -6,6 +6,11 @@
 #### 软件架构
 软件架构说明
 
+#### 安装Nuget包
+```bash
+dotnet add package Probas.Istio.AspNetCore
+```
+
 #### 使用说明(配置)
 
 1.  在 `Startup.cs` 进行如下配置
