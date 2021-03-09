@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>pins</Authors>
+    <Company>zesys</Company>
+    <Copyright>zesys</Copyright>
+	<Owners>zesys</Owners>
+	<RepositoryUrl>https://github.com/zesys/probas-istio-aspnetcore</RepositoryUrl>
+    <Description>Enables propagation of Istio tracing headers in ASP.Net Core</Description>
+	<Title>Probas.Istio.AspNetCore</Title>
+	<PackageId>Probas.Istio.AspNetCore</PackageId>
+	<PackageTags>API Gateway;.NET Core</PackageTags>
+	<Product>Probas.Istio.AspNetCore</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>

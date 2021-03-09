@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B76348CD-F496-4B6E-A915-82A342AA5150}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{7A2BFC89-057F-4F8D-ADB7-C7D122B160EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Probas.Istio.AspNetCore", "src\Probas.Istio.AspNetCore\Probas.Istio.AspNetCore.csproj", "{421A5150-DCEB-4B43-81DF-352C3AA7AB03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IstioHeader", "sample\IstioHeader\IstioHeader.csproj", "{B7369804-CF31-48AB-BEF9-CE368F28EC25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IstioHeader2", "sample\IstioHeader2\IstioHeader2.csproj", "{C1B2FCE9-23BD-4016-8EA3-08344FF2B573}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{421A5150-DCEB-4B43-81DF-352C3AA7AB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421A5150-DCEB-4B43-81DF-352C3AA7AB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421A5150-DCEB-4B43-81DF-352C3AA7AB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421A5150-DCEB-4B43-81DF-352C3AA7AB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7369804-CF31-48AB-BEF9-CE368F28EC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7369804-CF31-48AB-BEF9-CE368F28EC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7369804-CF31-48AB-BEF9-CE368F28EC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7369804-CF31-48AB-BEF9-CE368F28EC25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B2FCE9-23BD-4016-8EA3-08344FF2B573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B2FCE9-23BD-4016-8EA3-08344FF2B573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B2FCE9-23BD-4016-8EA3-08344FF2B573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B2FCE9-23BD-4016-8EA3-08344FF2B573}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{421A5150-DCEB-4B43-81DF-352C3AA7AB03} = {B76348CD-F496-4B6E-A915-82A342AA5150}
+		{B7369804-CF31-48AB-BEF9-CE368F28EC25} = {7A2BFC89-057F-4F8D-ADB7-C7D122B160EF}
+		{C1B2FCE9-23BD-4016-8EA3-08344FF2B573} = {7A2BFC89-057F-4F8D-ADB7-C7D122B160EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {359DC436-2C44-4664-80AB-960E448E1873}
+	EndGlobalSection
+EndGlobal
